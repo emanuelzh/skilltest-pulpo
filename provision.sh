@@ -20,3 +20,11 @@ php -v
 sudo curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 composer --version
+
+#nvm
+sudo apt-get install -y build-essential libssl-dev
+curl https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+# Once this is donde you have to restart your terminal session in order to get nvm command to work
+# then you can use: 
+# nvm install node 
+# to install the latest release version of NodeJS
