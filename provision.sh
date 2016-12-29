@@ -13,7 +13,7 @@ sudo apt install -y mysql-server mysql-client
 
 #PHP 7.0
 sudo apt-get install -y php7.0
-sudo apt-get install -y php7.0-mysql php7.0-mbstring
+sudo apt-get install -y php7.0-mysql php7.0-mbstring php7.0-dom
 php -v
 
 #composer
